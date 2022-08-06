@@ -1,0 +1,146 @@
+body {
+   margin:0px;
+  }
+  .container{
+    width: 100% ;
+  }
+.nav{
+    height: 100px;
+    background-color: black;
+    top:0;
+    width:100%;
+   /* margin-bottom: 100px;*/
+    z-index: 999;
+    position: sticky;
+}
+.nav a {
+        float: right;
+        color: #f2f2f2;
+        text-align: right;
+        padding: 50px 30px;
+        text-decoration: none;
+        font-size: 20px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;    
+      }
+.nav a.active
+ {
+       color: greenyellow;
+}
+
+.nav a:hover {
+    color: greenyellow;
+    }
+.logo{
+ float:left;
+ margin:0;
+/* z-index: 1;*/
+ height: 100px;
+}
+
+.ph{ 
+   /* position:relative;*/
+    background-image: url("C:/Users/abdsa/Desktop/global builders/pro2.jpg");
+    height: 800px;
+    background-size: cover;
+   
+   width:100%; 
+   
+  
+}
+.txt1{
+    margin-left:auto;
+    margin-right:auto;
+    font-size: 4em;
+   /* text-decoration: overline;*/
+     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+     color:white;
+     text-align: center;
+     width:80%;
+  /*  padding-top:100px;*/
+    
+}
+.ser{
+    font-size:45px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: underline;
+    text-decoration-color: greenyellow;
+    text-decoration-thickness:8px ;
+}
+.serv1{ 
+    margin:20px;
+    padding:20px;
+    font-size:20px;
+}
+.services{
+   width: 100%;
+    overflow: hidden;
+    height:600px;
+    margin:0px;
+   display: table;
+}
+.headin{
+    font-size:40px;
+    text-decoration: underline;
+    padding:15px;
+}
+
+.about{
+    margin-bottom:20px;
+    width:100%;
+    height: 420px;
+    display: table;
+}
+.ser2{
+    height:50px;
+    width: 100%;
+    font-size:45px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: underline;
+    text-decoration-color: greenyellow;
+    text-decoration-thickness:8px ;
+}
+
+.history{
+    margin:0px;
+    width:100%;
+    height:150px;
+    background-color: greenyellow;
+    display:table;
+}
+
+.projects{
+    margin:10px;
+    width:100%;
+    height:1200px ;
+    display:table;
+    padding: 0px;
+}
+.contact{
+    margin:0px;
+    width:100%;
+    height:1000px;
+}
+
+.icons{
+    margin:0px;
+    width:100%;
+    height:50px;
+}
+.input{
+    font-family:"Calibri,sans-serif";
+    font-size:30px
+}
+.submit{
+    font-size:35px;
+    
+    margin-top: 0px;
+    margin-left: 230px;
+    color:greenyellow;
+    background-color: black;
+    
+  }
+  .submit:hover {
+    background-color:greenyellow; 
+    /*box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(147, 205, 60, 0.19);*/
+    color:black
+  }
